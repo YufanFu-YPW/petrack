@@ -52,6 +52,12 @@
                     <!--title-->
                     <h1 class="title is-1 publication-title">PE-Track: Towards Holistic Motion Prediction
                         Enhancement for Multiple Object Tracking</h1>
+                    <!--author-->
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">
+                            <a>ANONYMOUS AUTHOR(S)</a>
+                        </span>
+                    </div>
                     <!--link-->
                     <div class="column has-text-centered">
                         <div class="publication-links">
@@ -85,9 +91,16 @@
 <section class="hero teaser">
     <div class="hero-body">
         <div class="container is-max-desktop">
-            <p align="center">
-                <img width="100%" src="static/images/compare_fig.jpg" class="img-responsive" alt="overview">
-            </p>
+            <table>
+                <tr>
+                    <td><img src="static/images/dancetrack.jpg"></td>
+                    <td><img src="static/images/sportsmot.jpg"></td>
+                </tr>
+                <tr>
+                    <td><img src="static/images/mot17.jpg"></td>
+                    <td><img src="static/images/bee24.jpg"></td>
+                </tr>
+            </table>
         </div>
     </div>
 </section>
@@ -140,28 +153,173 @@
     </div>
 </section>
 
-<!--&lt;!&ndash; Demo &ndash;&gt;-->
-<!--<section class="hero teaser">-->
-<!--    <div class="hero-body">-->
-<!--        <div class="container is-max-desktop">-->
-<!--            <div class="columns is-centered">-->
-<!--                <div class="column has-text-centered">-->
-<!--                    <h2 class="title is-3">Demo</h2>-->
-<!--                    <p align="center">-->
-<!--                        <img width="100%" src="static/images/compare.gif" class="img-responsive" alt="overview">-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+<!-- Demo -->
+<section class="hero teaser">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h2 class="title is-3">Demo</h2>
+                    <p style="text-align:justify;">
+                        The following demo shows the comparison between PE-Track and DiffMOT, where the left
+                        side shows the tracking result of PE-Track and the right side shows the tracking result of
+                        DiffMOT. It can be seen that the proposed PE-Track can better maintain the target identity and
+                        achieve robust tracking.
+                    </p>
+                    <video poster="" id="compare_demo" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/compare_demo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!--<section class="section" id="BibTeX">-->
-<!--    <div class="container is-max-desktop content">-->
-<!--        <h2 class="title">BibTeX</h2>-->
-<!--        <pre><code></code></pre>-->
-<!--    </div>-->
-<!--</section>-->
+<section>
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3"> DanceTrack Results</h2>
+    </div>
+</section>
+
+<br>
+
+<section class="hero is-light is-small">
+    <div class="hero-body">
+        <div class="container">
+            <div id="results-dance" class="carousel results-carousel">
+                <div class="item item-steve">
+                    <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0038.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-chair-tp">
+                    <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0054.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item item-shiba">
+                    <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0058.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-fullbody">
+                    <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0060.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-blueshirt">
+                    <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0005.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-mask">
+                    <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0018.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-coffee">
+                    <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0064.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-toby">
+                    <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0065.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-car">
+                    <video poster="" id="car" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0094.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-bus">
+                    <video poster="" id="bus" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/dancetrack0094.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+
+<section>
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3"> SportsMOT Results</h2>
+    </div>
+</section>
+
+<br>
+
+<section class="hero is-light is-small">
+    <div class="hero-body">
+        <div class="container">
+            <div id="results-sports" class="carousel results-carousel">
+                <div class="item item-sports0001">
+                    <video poster="" id="sports0001" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0001.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0001">
+                    <video poster="" id="sports0005" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0005.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item item-sports0008">
+                    <video poster="" id="sports0008" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0008.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0002">
+                    <video poster="" id="sports0002" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0002.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0006">
+                    <video poster="" id="sports0006" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0006.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0009">
+                    <video poster="" id="sports0009" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0009.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0003">
+                    <video poster="" id="sports0003" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0003.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0007">
+                    <video poster="" id="sports0007" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0007.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0010">
+                    <video poster="" id="sports0010" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0010.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item item-sports0004">
+                    <video poster="" id="sports0004" autoplay controls muted loop playsinline height="100%">
+                        <source src="static/videos/sports0004.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+            Citation information will be updated later
+        </code></pre>
+    </div>
+</section>
 
 <footer class="footer">
     <div class="container">
