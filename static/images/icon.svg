@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 icon.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.57814in" height="1.57814in"
+		viewBox="0 0 113.626 113.626" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#3366ff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#ffffff;font-family:Times New Roman;font-size:4.99999em}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#ffffff;font-family:Times New Roman;font-size:1.99999em}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group6-1" transform="translate(0.12,-0.12)" v:mID="6" v:groupContext="group">
+			<title>工作表.6</title>
+			<g id="shape4-2" v:mID="4" v:groupContext="shape">
+				<title>八边形</title>
+				<desc>PE</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="56.9329" width="113.39" height="113.386"/>
+				<path d="M80.18 0.24 L33.21 0.24 L0 33.45 L0 80.42 L33.21 113.63 L80.18 113.63 L113.39 80.42 L113.39 33.45 L80.18
+							 0.24 Z" class="st1"/>
+				<text x="21.68" y="74.93" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>PE</text>			</g>
+			<g id="shape5-5" v:mID="5" v:groupContext="shape" transform="translate(21.9685,-9.75118)">
+				<title>工作表.5</title>
+				<desc>Track</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="34.7244" cy="102.911" width="69.45" height="21.4299"/>
+				<rect x="0" y="92.1959" width="69.4488" height="21.4299" class="st3"/>
+				<text x="6.75" y="110.11" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Track</text>			</g>
+		</g>
+	</g>
+</svg>
