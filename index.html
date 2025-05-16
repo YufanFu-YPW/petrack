@@ -7,7 +7,7 @@
           name="description">
     <meta content="PE-Track, Multiple object tracking, TBD" name="keywords">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>PE-Track: Towards Holistic Motion Prediction Enhancement for Multiple Object Tracking</title>
+    <title>PE-Track: Enhancement of Holistic Motion Prediction for Multiple Object Tracking</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>-->
@@ -50,8 +50,8 @@
             <div class="columns is-centered">
                 <div class="column has-text-centered">
                     <!--title-->
-                    <h1 class="title is-1 publication-title">PE-Track: Towards Holistic Motion Prediction
-                        Enhancement for Multiple Object Tracking</h1>
+                    <h1 class="title is-1 publication-title">PE-Track: Enhancement of Holistic Motion Prediction for
+                        Multiple Object Tracking</h1>
                     <!--author-->
                     <div class="is-size-5 publication-authors">
                         <span class="author-block">
@@ -142,19 +142,20 @@
                         Tracking-by-detection (TBD) methods with a learnable motion predictor exhibit notable
                         performance in handling complex scenarios. However, most of these methods generally neglect
                         the spatial interactions between objects. Furthermore, both detector localization errors and
-                        incorrect associations introduce noises into motion predictor. To address unreliable motion
+                        incorrect associations introduce noise into the motion predictor. To address unreliable motion
                         prediction caused by spatial information deficiency and noise propagation, we propose PE-Track,
-                        a holistically enhanced tracker. Specifically, we develop a historical-spatial motion predictor
-                        (HSMP) to achieve accurate prediction. Each layer of HSMP employs two independent branches to
-                        extract historical motion and spatial interaction features, and these features are mutually
-                        guided and enhanced via a fusion block. Moreover, for reducing the matching noise caused by
-                        incorrect associations, we introduce a hybrid offsets modulated IoU (HOMIoU) to optimize the
-                        discriminability of conventional IoU. It combines center offset and depth offset to modulate
-                        IoU, sufficiently utilizing the latent information in prediction results. Additionally, we
-                        propose an adaptive position correction update (APCU) strategy to filters the measurement noise
-                        caused by detectors. APCU utilizes predicted positions to dynamically adjust observed positions
-                        according to the confidence of these positions. In experiments, our proposed PE-Track achieves
-                        state-of-the-art on benchmarks such as Dancetrack and SportsMOT.
+                        a holistically enhanced tracker. Specifically, we develop a historical–spatial motion predictor
+                        (HSMP) to achieve accurate prediction. Each layer of the HSMP employs two independent branches
+                        to extract historical motion and spatial interaction features, and these features are mutually
+                        guided and enhanced via a fusion block. Moreover, to reduce the matching noise caused by
+                        incorrect associations, we introduce a hybrid offset modulated IoU (HOMIoU) to optimize the
+                        discriminability of the conventional IoU. It combines the center offset and depth offset to
+                        modulate the IoU, sufficiently utilizing the latent information in the prediction results.
+                        Additionally, we propose an adaptive position correction update (APCU) strategy to filter the
+                        measurement noise caused by detectors. The APCU uses the predicted positions to dynamically
+                        adjust the observed positions according to the confidence of these positions. In the
+                        experiments, our proposed PE-Track achieves state-of-the-art performance on benchmarks
+                        such as Dancetrack and SportsMOT.
                     </p>
                 </div>
             </div>
